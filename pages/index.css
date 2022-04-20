@@ -1,3 +1,12 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/logo_place_header.css);
+@import url(../blocks/place/__img/place_img.css);
+@import url(../blocks/place/__paragraph/place_paragraph.css);
+@import url(../blocks/place/__title/place_title.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/lead/_desktop/content__lead_desktop_narrow.css);
+
+/* 1184 - общий ограничитель контентка
+984 - ограничитель сeкций */
