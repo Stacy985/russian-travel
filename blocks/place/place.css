@@ -1,0 +1,10 @@
+.place {
+  padding-top: 92px;
+  list-style-type: none;
+  max-width: 984px;;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+  row-gap: 48px;
+  column-gap: 40px;
+
+}
