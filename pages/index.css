@@ -1,7 +1,11 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/logo_place_header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/intro/__container/intro__container.css);
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__container/lead__container.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
@@ -31,6 +35,7 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/place/__website/_content/place__website_content_link.css);
 @import url(../blocks/place/__website/_content/place__website_content_url-heading.css);
+@import url(../blocks/photo-grid/__content/photo-grid_content.css);
 
 /* 1184 - общий ограничитель контентка
 984 - ограничитель сeкций */

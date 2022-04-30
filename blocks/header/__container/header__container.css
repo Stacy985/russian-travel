@@ -1,0 +1,22 @@
+.header__container {
+  flex: 1184px 0 1;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+  .header__container{
+    flex: 928px 0 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__container{
+    flex: 720px 0 1;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__container {
+    flex: 288px 0 1;
+  }
+}

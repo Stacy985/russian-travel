@@ -1,0 +1,29 @@
+.intro__container {
+  flex: 984px 0 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+@media screen and (max-width: 1024px) {
+  .intro__container {
+    width: 100%;
+    max-width: 928px;
+    align-items: start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__container {
+    width: 100%;
+    max-width: 720px;
+    align-items: start;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__container {
+    width: 100%;
+    max-width: 288px;
+    align-items: start;
+  }
+}

@@ -1,8 +1,23 @@
 .header {
+  box-sizing: border-box;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 28px 48px 0 48px;
-  min-width: 1184px;
-  object-fit: contain;
+  justify-content: center;
+  padding: 28px 48px 0;
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 48px 48px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 28px calc(48px/2) 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 16px calc(48px/3) 0;
+  }
 }
