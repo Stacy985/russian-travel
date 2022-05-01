@@ -1,6 +1,8 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang/__lang__en.css);
+@import url(../blocks/header/__lang/_active/header__lang_active__ru.css);
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/intro/__container/intro__container.css);
@@ -14,21 +16,26 @@
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__container/photo-grid__container.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__container/places__container.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/header/__lang/_link/header__lang_link_en.css);
-@import url(../blocks/header/__lang/_link/header__lang_link_ru.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-numeric/intro__list-numeric.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__item/cover__item.css);
+@import url(../blocks/cover/__container/cover__container.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__links/footer__links.css);
@@ -36,6 +43,6 @@
 @import url(../blocks/place/__website/_content/place__website_content_link.css);
 @import url(../blocks/place/__website/_content/place__website_content_url-heading.css);
 @import url(../blocks/photo-grid/__content/photo-grid_content.css);
-
+@import url(../blocks/footer/__container/footer__container.css);
 /* 1184 - общий ограничитель контентка
 984 - ограничитель сeкций */

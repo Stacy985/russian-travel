@@ -1,0 +1,25 @@
+.header__lang__en {
+  color: #ffffff;
+  font-size: 24px;
+  text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+  .header__lang__en {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang__en {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang__en {
+    font-size: 24px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

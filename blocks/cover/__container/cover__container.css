@@ -1,24 +1,24 @@
-.intro__container {
-  max-width: 984px;
+.cover__container {
+  max-width: 1184px;
   width: 100%;
 }
 @media screen and (max-width: 1024px) {
-  .intro__container {
+  .cover__container {
+    max-width: 1024px;
     width: 100%;
-    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .intro__container {
+  .cover__container {
+    max-width: 768px;
     width: 100%;
-    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .intro__container {
+  .cover__container {
+    max-width: 320px;
     width: 100%;
-    max-width: 288px;
   }
 }

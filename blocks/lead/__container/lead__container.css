@@ -1,23 +1,27 @@
 .lead__container {
-  flex: 984px 0 1;
+  max-width: 984px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 @media screen and (max-width: 1024px) {
   .lead__container {
-    flex: 928px 0 1;
+    max-width: 928px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__container {
-    flex: 768px 0 1;
+    max-width: 768px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__container {
-    flex: 320px 0 1;
+    max-width: 320px;
+    width: 100%;
   }
 }

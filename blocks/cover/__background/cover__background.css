@@ -1,7 +1,33 @@
 .cover__background {
   background-image: url(../../../images/__background.jpg);
+  display: flex;
   background-size: cover;
-  min-width: 1184px;
-  min-height: 740px;
+  background-repeat: no-repeat;
+  aspect-ratio: 8/5;
+  background-position: center;
+  position: relative;
+}
 
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    max-width: 1024px;
+    width: 100%;
+    aspect-ratio: 8/5;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    max-width: 768px;
+    width: 100%;
+    aspect-ratio: 8/5;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    max-width: 320px;
+    width: 100%;
+    aspect-ratio: 8/5;
+  }
 }

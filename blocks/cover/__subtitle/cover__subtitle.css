@@ -2,9 +2,33 @@
   margin: 0;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  font-size: 18px;
   color: #ffffff;
   max-width: 360px;
   text-align: center;
   padding-top: 32px;
+}
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    padding-top: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 288px;
+  }
 }

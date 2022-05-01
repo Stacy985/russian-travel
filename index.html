@@ -15,8 +15,8 @@
           alt="карта России"
         />
         <div class="header__lang">
-          <a href="#" class="header__lang_link_ru">Ru</a>
-          <a href="#" class="header__lang_link_en">En</a>
+          <a href="#" class="header__lang header__lang_active__ru">Ru</a>
+          <a href="#" class="header__lang__en">En</a>
         </div>
       </div>
     </header>
@@ -50,16 +50,28 @@
             стране. Мы выбрали и описали некоторые интересные места, достойные
             вашего отпуска.
           </p>
-          <p class="intro__list">Часовых поясов 11</p>
-          <p class="intro__list">Объектов природного наследия ЮНЕСКО 12</p>
-          <p class="intro__list">Объектов культурного наследия ЮНЕСКО 16</p>
-          <p class="intro__list">Природных заповедников 105</p>
-          <p class="intro__list">Аэропортов 241</p>
+          <p class="intro__list">
+            Часовых поясов <span class="intro__list-numeric">11</span>
+          </p>
+          <p class="intro__list">
+            Объектов природного наследия ЮНЕСКО
+            <span class="intro__list-numeric">12</span>
+          </p>
+          <p class="intro__list">
+            Объектов культурного наследия ЮНЕСКО
+            <span class="intro__list-numeric">16</span>
+          </p>
+          <p class="intro__list">
+            Природных заповедников <span class="intro__list-numeric">105</span>
+          </p>
+          <p class="intro__list">
+            Аэропортов <span class="intro__list-numeric">241</span>
+          </p>
         </div>
       </section>
 
       <section class="photo-grid">
-        <ul>
+        <ul class="photo-grid__container">
           <li class="photo-grid_content">
             <img
               src="./images/photo-grid/__item-railway.jpg"
@@ -69,7 +81,7 @@
           </li>
           <li class="photo-grid_content">
             <img
-              src="./images/photo-grid/__item-mountains in the clouds.jpg"
+              src="./images/photo-grid/__item-mountains_in_the_clouds.jpg"
               alt="горы в облаках"
               class="photo-grid__item"
             />
@@ -83,7 +95,7 @@
           </li>
           <li class="photo-grid_content">
             <img
-              src="./images/photo-grid/__item-forest in clouds.jpg"
+              src="./images/photo-grid/__item-forest_in_clouds.jpg"
               alt="лес в облаках"
               class="photo-grid__item"
             />
@@ -125,7 +137,7 @@
           </li>
           <li class="photo-grid_content">
             <img
-              src="./images/photo-grid/__item-mountain2 .jpg"
+              src="./images/photo-grid/__item-mountain2.jpg"
               alt="кавказские горы"
               class="photo-grid__item"
             />
@@ -147,8 +159,8 @@
         </ul>
       </section>
       <section class="places">
-        <ul>
-          <li class="place">
+        <div class="places__container">
+          <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
               <p class="place__website_content_url-heading">URL</p>
@@ -159,7 +171,7 @@
 
             <img
               src="./images/__image_Kurskaya.jpg"
-              alt=""
+              alt="Кусшкая коса и море"
               class="place__image"
             />
             <div class="place__text">
@@ -178,8 +190,8 @@
                 прохладного моря.
               </p>
             </div>
-          </li>
-          <li class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
               <p class="place__website_content_url-heading">URL</p>
@@ -192,7 +204,7 @@
 
             <img
               src="./images/__image_Kolskyi.jpg"
-              alt=""
+              alt="Кольский полуостров зимой"
               class="place__image"
             />
             <div class="place__text">
@@ -211,10 +223,10 @@
                 с билетом в Мурманск.
               </p>
             </div>
-          </li>
-          <li class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Алтай</h2>
-            <div class="place__website_content">
+            <div class="place__website">
               <p class="place__website_content_url-heading">URL</p>
               <a
                 href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
@@ -223,7 +235,11 @@
               >
             </div>
 
-            <img src="./images/__image_Altay.jpg" alt="" class="place__image" />
+            <img
+              src="./images/__image_Altay.jpg"
+              alt="Летний, густой лес"
+              class="place__image"
+            />
             <div class="place__text">
               <p class="place__paragraph">
                 Алтай — одно из красивейших мест в России. В первую очередь
@@ -240,8 +256,8 @@
                 края.
               </p>
             </div>
-          </li>
-          <li class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
               <p class="place__website_content_url-heading">URL</p>
@@ -254,7 +270,7 @@
 
             <img
               src="./images/__image_Baikal.jpg"
-              alt=""
+              alt="Лёд Байкала"
               class="place__image"
             />
             <div class="place__text">
@@ -264,16 +280,15 @@
                 красивейших мест в России.
               </p>
               <p class="place__paragraph">
-                Конечно, это всё так. Но Байкал ещё идеальное место
-                для соревнований по скийорингу. Это такой вид спорта, когда
-                лыжник привязывает себя к мотоциклу, и тандем старается развить
-                как можно бóльшую скорость на льду. В марте 2019 года на
-                фестивале «Байкальская миля» был поставлен мировой рекорд —
-                197.011 км/ч.
+                Конечно, это всё так. Но Байкал ещё идеальное место для
+                соревнований по скийорингу. Это такой вид спорта, когда лыжник
+                привязывает себя к мотоциклу, и тандем старается развить как
+                можно бóльшую скорость на льду. В марте 2019 года на фестивале
+                «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
               </p>
             </div>
-          </li>
-          <li class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
               <p class="place__website_content_url-heading">URL</p>
@@ -284,7 +299,7 @@
 
             <img
               src="./images/__image_Kareliya.jpg"
-              alt=""
+              alt="Пейзаж с рекой"
               class="place__image"
             />
             <div class="place__text">
@@ -300,50 +315,57 @@
                 помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
               </p>
             </div>
-          </li>
-        </ul>
+          </article>
+        </div>
       </section>
       <section class="cover">
-        <div class="cover__background">
-          <a
-            href="https://stampsy.com/na-elektrichkakh-do-baikala"
-            class="cover__overlay"
-          >
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">
-              По мотивам учебной темы о Транссибе — путешествие от столицы до
-              Байкала на электричках.
-            </p>
-          </a>
+        <div class="cover__container">
+          <div class="cover__background">
+            <a
+              href="https://stampsy.com/na-elektrichkakh-do-baikala"
+              class="cover__overlay"
+            >
+              <h2 class="cover__title">
+                До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
+              </h2>
+              <p class="cover__subtitle">
+                По&nbsp;мотивам учебной темы о&nbsp;Транссибе &nbsp;&mdash;
+                путешествие от&nbsp;столицы до Байкала на&nbsp;электричках.
+              </p>
+            </a>
+          </div>
         </div>
       </section>
     </main>
-    <footer class="footer page__footer">
-      <nav class="footer__content">
-        <ul class="footer__links">
-          <li>
-            <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
-          </li>
-          <li>
-            <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
-          </li>
-          <li>
-            <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
-          </li>
-          <li>
-            <a href="https://calendar.yandex.ru" class="footer__link"
-              >Календарь</a
-            >
-          </li>
-          <li>
-            <a href="https://travel.yandex.ru" class="footer__link"
-              >Путешествия</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <p class="footer__copyright">&copy; 2022. Анастасия</p>
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class="footer__content">
+          <ul class="footer__links">
+            <li>
+              <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
+            </li>
+            <li>
+              <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
+            </li>
+            <li>
+              <a href="https://rasp.yandex.ru" class="footer__link"
+                >Расписание</a
+              >
+            </li>
+            <li>
+              <a href="https://calendar.yandex.ru" class="footer__link"
+                >Календарь</a
+              >
+            </li>
+            <li>
+              <a href="https://travel.yandex.ru" class="footer__link"
+                >Путешествия</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <p class="footer__copyright">&copy; 2022. Анастасия</p>
+      </div>
     </footer>
-    <!-- page__footer - микс -->
   </body>
 </html>

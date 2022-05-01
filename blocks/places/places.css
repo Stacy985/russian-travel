@@ -1,3 +1,23 @@
 .places {
-  display: block;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 76px 148px 0;
+}
+@media screen and (max-width: 1024px) {
+  .places {
+    padding: 76px 48px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    padding: 72px calc(48px / 2) 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding: 48px 0 0;
+  }
 }
