@@ -17,23 +17,17 @@
 @media screen and (max-width: 1024px) {
   .cover__overlay {
     max-width: 1024px;
-    width: 100%;
-    aspect-ratio: 8/5;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
     max-width: 768px;
-    width: 100%;
-    aspect-ratio: 8/5;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__overlay {
     max-width: 320px;
-    width: 100%;
-    aspect-ratio: 8/5;
   }
 }
