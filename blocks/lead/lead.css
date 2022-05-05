@@ -14,12 +14,6 @@
 
 @media screen and (max-width: 768px) {
   .lead {
-    padding: 48px calc(48px / 2) 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead {
     padding: 48px 0 0;
   }
 }

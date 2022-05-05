@@ -5,17 +5,17 @@
 }
 @media screen and (max-width: 1024px) {
   .cover {
-    padding: 2px 0 0;
+    padding: 12px 0 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    padding: 15px 0 0;
+    padding: 17px 0 0;
   }
 }
 @media screen and (max-width: 320px) {
   .cover {
-    padding: 1px 0 0;
+    padding: 16px 0 0;
   }
 }
