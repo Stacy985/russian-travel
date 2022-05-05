@@ -5,7 +5,12 @@
   color: #ffffff;
   text-decoration: none;
   transition: 0.2s linear;
+  padding-right: 18px;
 }
+.header__lang-link:last-of-type {
+  padding-right: 0;
+}
+
 .header__lang-link:hover {
   opacity: 0.8;
 }
