@@ -9,9 +9,6 @@
   align-items: flex-start;
 }
 
-.place:last-of-type {
-  padding-bottom: 0;
-}
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 440px minmax(456px, 456px);
