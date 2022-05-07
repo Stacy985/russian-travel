@@ -20,12 +20,6 @@
     grid-template-columns: 370px minmax(370px, 370px);
   }
 }
-
-@media screen and (max-width: 800px) {
-  .place {
-    grid-template-columns: 350px minmax(350px, 350px);
-  }
-}
 @media screen and (max-width: 900px) {
   .place {
     grid-template-columns: 360px minmax(360px, 360px);
