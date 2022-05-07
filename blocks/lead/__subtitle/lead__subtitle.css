@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .lead__subtitle {
     padding-top: 16px;
     padding-bottom: 40px;
