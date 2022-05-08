@@ -1,10 +1,9 @@
 .lead__container {
+  box-sizing: border-box;
   max-width: 984px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden;
 }
 @media screen and (max-width: 1024px) {
   .lead__container {
